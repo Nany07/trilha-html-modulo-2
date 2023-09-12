@@ -39,9 +39,15 @@ body {
     text-align: center;
     color: black;
 }
+.footer img {
+    padding: 30px 0px 0px;
+}
 .menu a {
     color: black;
 }
-.menu ul{
+.menu ul {
     padding: 10px 30px;
+}
+table, th, td {
+    border: 1px solid black;
 }
