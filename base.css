@@ -20,12 +20,12 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: rgb(82, 168, 168);
+    background-color: rgb(94, 133, 184);
     padding: 10px 20px 0px;
     color: black;
 }
 .header {
-    background-color: rgb(138, 199, 199);
+    background-color: rgb(38, 82, 119);
     min-height: 150px;
 }
 .content {
@@ -34,7 +34,7 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(50, 141, 141);
+    background-color: rgb(108, 110, 128);
     min-height: 150px;
     text-align: center;
     color: black;
