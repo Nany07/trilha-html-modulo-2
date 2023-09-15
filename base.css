@@ -50,4 +50,23 @@ body {
 }
 table, th, td {
     border: 1px solid black;
+    text-align: center;
+}
+
+.mail {
+    padding: 40px 0px;
+}
+
+.mail input {
+    padding: 5px 5px;
+    margin: 5px 0px 10px 20px;
+}
+
+#assunto {
+    padding: 5px 5px 5px 0px;
+    margin: 10px 0px 0px 11 px;
+}
+
+.contato{
+    padding:5px 0px;
 }

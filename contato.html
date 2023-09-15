@@ -34,30 +34,32 @@
             <div class="content">
                 <!-- Aqui vai o seu conteúdo -->
                 <h1>Nossos Contatos</h1>
-                <p>
+                <div class="contato">
                     <div class="num_contatos">
-                        <strong>Telefone</strong> - (19) 3349-4824 <br>
-                        <strong>Whatsapp</strong> - (19) 9485-4834</p>
+                        <h2>Ligar/Mensagem</h2>
+                        <strong>Telefone</strong>  -  (19) 3349-4824 <br>
+                        <strong>Whatsapp</strong> - (19) 9485-4834</p><br>
                     </div>
                     <div class="endereco">
-                        <p><strong>Endereço:</strong> <i>R. Fortunato Faraone, 49 - Jardim Girassol, Americana - SP <br>CPF:13465-660</i></p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14720.995745815497!2d-47.63775984337061!3d-22.718986967561257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1694450486776!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h2>Endereço:</h2>
+                        <i>R. Fortunato Faraone, 49 - Jardim Girassol, Americana - SP <br>CPF:13465-660</i></p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14716.252022036277!2d-47.635685099999996!3d-22.76304295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1694794434046!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+
                     <div class="mail">
-                        <form name="correspondencia" method="post" target="_self"
-                         autocomplete="off"  action="index.html">
-                            <label>Nome</label><input name="name" type="text"><br>
-                            <label>E-mail</label><input name="email" type="email"><br>
-                            <label>Assunto</label><input name="assunto" type="text"><br>
-                            <label>Mensagem</label><input name="texto" type="textarea"><br>
-                            <button onclick="SubmitEvent">Enviar</button><button type="reset" title="Limpar Formulário">Limpar</button>
+                        <h2>Entrar em Contato:</h2>
+                        <form name="correspondencia" method="get" target="_self"
+                         autocomplete="off"  onsubmit="alert('Mensagem Enviada com sucesso!')" action="index.html">
+                            <label>Nome:  </label><input name="name" type="text"><br>
+                            <label>E-mail:</label><input name="email" type="email"><br>
+                            <label>Assunto:</label><input name="assunto" type="text" id="assunto"><br><br>
+                            <label>Mensagem:</label><br><br>
+                            <textarea name="text"  cols="30" rows="10"></textarea><br><br>
+                            <button type="submit">Enviar</button><button type="reset" title="Limpar Formulário">Limpar</button>
                         </form>
-
                     </div>
-
-
             </div>
-    
+
             <div class="footer">
                 <!-- Aqui vai o seu rodapé -->           
                 <a href="https://www.facebook.com" target="_blank"><img src="midia/facebook.png" alt="Facebook"></a>
